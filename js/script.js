@@ -17,7 +17,7 @@ function login(){
     var senha = document.getElementById('senha').value;
 
     if(usuario =='Letícia' && senha == '123456'){
-        window.location = "home.html"
+        window.location = "index.html"
         logado = 1
     }
     if (logado == 0){
@@ -30,5 +30,5 @@ function login(){
 
 function cadastro(){
     window.alert("Cadastro com sucesso!");
-    window.location.href = "home.html";
+    window.location.href = "index.html";
 }
