@@ -27,3 +27,8 @@ function login(){
 
 
 //Ativar alert no botão cadastrar
+
+function cadastro(){
+    window.alert("Cadastro com sucesso!");
+    window.location.href = "home.html";
+}
